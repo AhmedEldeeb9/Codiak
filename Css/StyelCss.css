@@ -1,0 +1,249 @@
+html { 
+background: url("..//images/bkgrd.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body {
+font-family: 'Ubuntu', sans-serif;
+}
+.main {
+background-color:rgba(180, 180, 183, 0.3);;
+width: 400px;
+height: 400px;
+margin: 7em 7em 7em 7em ;
+border-radius: 1.5em;
+box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.logo {
+    padding-top: 20px;
+color: #5748a3;
+font-family: Copperplate Gothic Light ;
+font-weight: 40;
+font-size: 35px;
+    cursor: grab ;
+}
+.sign {
+padding-top:3px;
+color: #5748a3;
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: 23px;
+}
+.un {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+padding-top: 40px;
+}
+
+.pass {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+}
+
+.submit {
+cursor: pointer;
+border-radius: 5em;
+color: #fff;
+background: linear-gradient(to right, #efe8f0, #110064f5);
+border: 0;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 10px;
+padding-top: 10px;
+font-family: 'Ubuntu', sans-serif;
+margin-left: 35%;
+font-size: 13px;
+box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot {
+text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+color: #E1BEE7;
+padding-top: 4px;
+}
+.sinup {
+text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+color: #E1BEE7;
+padding-top: 1px;
+}
+.ftime {
+text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+color: firebrick;
+font-size: 13px}
+
+a {
+text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+color: #4c2f51;
+text-decoration: none
+}
+
+@media (max-width: 600px) {
+.main {
+border-radius: 0px;
+}
+/*SinUp Style !!!!!!!!!!!!!!!!!!!!!!*/ 
+    
+    body {
+		background-color: #cfcbbf;
+		background-image: url(/images/bg4_2.png);
+}
+
+#SignupContent {
+		max-width: 600px;
+		backgroud-color: white;
+		border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+		#SignupContent {
+				height: 100%;
+		}
+	#materialToolbar {
+		    padding: 10px;
+	}
+}
+    
+    /*ENd */
+    
+    
+    
+ * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

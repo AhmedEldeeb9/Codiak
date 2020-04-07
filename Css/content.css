@@ -1,0 +1,40 @@
+.navbar-brand{
+font-family: Copperplate Gothic Light ;
+    }
+
+.standing {
+  margin-top: 10 px ;
+   height: 544px; 
+  background-color: white;
+    padding: 0 0 0 0 ;
+    margin-left: -15px ;
+}
+
+.hhed {
+     height:400px ;
+    background-image: url("..//images/cintent/mm.jpg") ;
+    background-size: cover;
+    
+}
+.Content {
+height: 600px ;
+    width: 100% ;
+    background-color: rgba(85, 113, 137, 0.8);
+    
+}
+
+
+.foot {
+    margin-top: 15px ;
+background-color: rgba(0, 0, 0, 0.8);
+}
+.footer-copyright
+{
+    color: white ;
+}
+
+.btn-group  {
+     padding-top: 30px;
+  padding-bottom: 30px;
+    margin-left: 50% ;
+}

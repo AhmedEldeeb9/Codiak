@@ -1,0 +1,140 @@
+body 
+{
+  background-color: #eee;
+  font-family: "Fredoka One";
+  color: #fff;
+  overflow: hidden;
+}
+
+.abs-center1 {
+  position: fixed;
+  top: 49%;
+  right: -15%;
+  width: 100%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+}
+.lang_area 
+{
+  position: fixed;
+  top: 13%;
+  right: -13%;
+  width: 35%;
+  height: 4%;
+  border: 12px;
+  border-color: black;
+  transform: translate(-50%, -50%);
+}
+.input_area 
+{
+  position: fixed;
+  top: 90%;
+  right: 2%;
+  width: 25%;
+  height: 15%;
+  border: 12px;
+  border-color: black;
+  transform: translate(-50%, -50%);
+}
+.runBtn
+{
+  background-color: darkgrey;
+  position: fixed;
+  top: 90%;
+  right: 0%;
+  width: 8%;
+  height: 5%;
+  border: 12px;
+  border-color: black;
+  transform: translate(-50%, -50%);
+}
+.runBtn:hover
+{
+    background-color: cornflowerblue;
+}
+h1 
+{
+  z-index: 3;
+  position: absolute;
+  right: 10px;
+  font-size: 50px;
+  letter-spacing: -2px;
+}
+code 
+{
+    height: 80%;
+  z-index: 5;
+  max-width: 420px;
+  max-height: 90vh;
+  padding: 16px 32px 16px 48px;
+  background-color: #234;
+  font-family: monospace;
+  border-radius: 2px;
+  box-shadow: 0 4px 7px -2px rgba(0,0,0,0.4);
+  outline: none;
+  counter-reset: step;
+  overflow-y: auto;
+}
+code::-webkit-scrollbar {
+  width: 6px;
+}
+code::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+}
+p {
+  display: block;
+  position: relative;
+  line-height: 16px;
+  white-space: pre-wrap;
+}
+p::before {
+  content: counter(step);
+  counter-increment: step;
+  position: absolute;
+  right: calc(100% + 16px);
+  color: #678;
+}
+code .js1 {
+  color: #e68;
+}
+code .js2 {
+  color: #7ff;
+  font-style: italic;
+}
+code .js-num {
+  color: #a7c;
+}
+code .func-name {
+  color: #6e6;
+}
+code .string,
+code .string * {
+  color: #ffd658;
+}
+code .func-args,
+code .func-args * {
+  color: #ffa500;
+}
+code .comment,
+code .comment * {
+  color: #999;
+}
+
+.parent
+{
+    display: inline;
+}
+.compiler
+{
+    display: inline;
+}
+.quiz
+{
+    width: 57%;
+    height: 80%;
+    background-color: blue;
+    position: absolute;
+    top: 48%;
+    right: 14%;
+  transform: translate(-50%, -50%);
+}
